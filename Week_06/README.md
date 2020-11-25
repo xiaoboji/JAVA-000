@@ -1,6 +1,6 @@
 
 # 本周完成作业
-4-2（选做）根据课上提供的材料，系统性学习一遍设计模式，并在工作学习中思考如何用设计模式解决问题。
+4-3（选做）根据课上提供的材料，系统性学习一遍设计模式，并在工作学习中思考如何用设计模式解决问题。
 
 [设计模式总结 https://github.com/xiaoboji/JAVA-000/tree/main/Week_06/Thu-3](https://github.com/xiaoboji/JAVA-000/tree/main/Week_06/Thu-3).
 
