@@ -7,6 +7,7 @@
 
 -- shop.`user` definition
 
+```sql
 CREATE TABLE `user` (
   `userid` varchar(64) NOT NULL COMMENT '用户表id',
   `username` varchar(50) NOT NULL COMMENT '用户名',
@@ -72,3 +73,5 @@ CREATE TABLE `orderitem` (
   PRIMARY KEY (`itemid`),
   KEY `orderitem_itemid_IDX` (`itemid`,`userid`,`orderid`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+```
