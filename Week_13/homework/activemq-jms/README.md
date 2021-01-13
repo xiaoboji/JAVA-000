@@ -17,14 +17,16 @@ tar -zxvf apache-activemq-5.16.0-bin.tar.gz
 ```
 - 验证测试
 
-在win10上无法访问 虚拟机ip:8161,解决方法
+在win10上无法访问 虚拟机ip:8161
 
-关闭linux防火墙
+解决方法
+
+(1)关闭linux防火墙
 ```bash
 systemctl stop firewalld.service
 ```
 
-修改conf/jetty.xml文件，把127.0.0.1修改成0.0.0.0，然后重启，解决了访问问题,具体原因待分析
+(2)修改conf/jetty.xml文件，把127.0.0.1修改成0.0.0.0，然后重启，解决了访问问题
 ```bash
 <bean id="jettyPort" class="org.apache.activemq.web.WebConsolePort" init-method="start">
          <!-- the default port number for the web console -->
@@ -32,10 +34,14 @@ systemctl stop firewalld.service
     <property name="port" value="8161"/>
 </bean>
 ```
-主机可以访问 虚拟机ip:8161,账户名/密码, admin/admin
+主机可以访问 虚拟机ip:8161
+
+账户名/密码, admin/admin
 ### windows安装 
 - 下载
 - 解压
 - 启动
 
 ## 二、基于JMS，分别实现对于queue和topic的消息生产和消费
+
+详见代码
