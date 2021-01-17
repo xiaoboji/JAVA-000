@@ -22,6 +22,7 @@ tar -zxvf apache-activemq-5.16.0-bin.tar.gz
 解决方法
 
 (1)关闭linux防火墙
+
 ```bash
 systemctl stop firewalld.service
 ```
