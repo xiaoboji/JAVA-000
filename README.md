@@ -1,55 +1,25 @@
-# 一、复习笔记
+# 极客大学「Java进阶训练营-第0期」作业提交仓库
 
-用几天的时间把整个课程复习了一遍，以下是复习过程中的笔记，方便后续查阅。
 
-1. [JVM核心技术(一)-基础知识]
-2. [JVM核心技术(二)-工具与GC策略]
-3. [JVM核心技术(三)-调优分析与面试经验]
-4. [NIO模型与Netty入门]
-5. [Netty原理与API网关]
-6. [Java并发编程(一)]
-7. [Java并发编程(二)]
-8. [Java并发编程(三)]
-9. [Java相关框架(一)-Spring基础]
-10. [Java相关框架(二)-SpringBoot/Hibernate/Mybatis]
-11. [Java相关框架(三)-Java8/Lombok/Guava/编程规范/设计模式/单元测试等]
-12. [性能与SQL优化(一)-Mysql配置/原理/设计优化]
-13. [性能与SQL优化(二)-事务与锁/SQL优化]
-14. [超越分库分表-高可用与读写分离-集群配置/主从复制/读写分离/高可用]
-15. [数据库拆分与分库分表-常见的框架和中间件]
-16. [分布式事务]
-17. [RPC与分布式服务化]
-18. [Dubbo技术详解]
-19. [深入分布式服务化]
-20. [Spring Cloud与微服务架构]
-21. [分布式缓存-缓存技术](https://github.com/xiaoboji/JAVA-000/blob/main/Week_11/note/DistributedCache.png)
-22. [分布式缓存-Redis详解](https://github.com/xiaoboji/JAVA-000/blob/main/Week_11/note/Redis.png)
-23. [Redis高可用/Redisson/Hazelcast]
-24. [消息队列基础](https://github.com/xiaoboji/JAVA-000/blob/main/Week_11/note/mq.png)
-25. [Kafka消息中间件](https://github.com/xiaoboji/JAVA-000/blob/main/Week_13/note/kafka.png)
-26. [其他MQ介绍与动手写MQ]
-27. [高并发系统架构设计]
-28. [如何设计一个秒杀系统]
-29. [一个真实的重构案例]
-30. [架构师修炼之道]
 
-# 二、毕业项目
-1. JVM
 
-2. NIO
+## 仓库目录结构说明
 
-3. 并发编程
+1. `week01/` 代表第一周作业提交目录，以此类推。
+2. 请在对应周的目录下新建或修改自己的代码作业。
+2. 每周均有一个 `REDAME.md` 文档，你可以将自己当周的学习心得以及做题过程中的思考记录在该文档中。
 
-4. Spring 和 ORM 等框架
+## 作业提交规则
+ 
+1. 先将本仓库 Fork 到自己 GitHub 账号下。
+2. 将 Fork 后的仓库 Clone 到本地，然后在本地仓库中对应周的目录下新建或修改自己的代码作业，当周的学习总结写在对应周的README.md文件里。
+3. 在本地仓库完成作业后，push 到自己的 GitHub 远程仓库。
+4. 最后将远程仓库中当周的作业链接，按格式贴到班级仓库对应学习周的issue下面。
+5. 提交issue请务必按照规定格式进行提交，否则作业统计工具将抓取不到你的作业提交记录。 
 
-5. MySQL 数据库和 SQL
+详细的作业提交流程可以查阅：https://shimo.im/docs/m5rtM8K8rNsjw5jk/ 
 
-6. 分库分表
 
-7. RPC 和微服务
+## 注意事项
 
-8. 分布式缓存
-
-9. 分布式消息队列
-
-# 三、课程总结
+ 如果对 Git 和 GitHub 不太了解，请参考 [Git 官方文档](https://git-scm.com/book/zh/v2) 或者极客时间的[《玩转 Git 三剑客》](https://time.geekbang.org/course/intro/145)视频课程。
