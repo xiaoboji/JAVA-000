@@ -193,7 +193,7 @@ soul网关基于Spring WebFlux（底层Netty），这块需要后面研究一下
 21. [分布式缓存-缓存技术](https://github.com/xiaoboji/JAVA-000/blob/main/Week_11/note/DistributedCache.png)
 22. [分布式缓存-Redis详解](https://github.com/xiaoboji/JAVA-000/blob/main/Week_11/note/Redis.png)
 23. [Redis高可用/Redisson/Hazelcast]
-24. [消息队列基础](https://github.com/xiaoboji/JAVA-000/blob/main/Week_11/note/mq.png)
+24. [消息队列基础](https://github.com/xiaoboji/JAVA-000/blob/main/Week_13/note/mq.png)
 25. [Kafka消息中间件](https://github.com/xiaoboji/JAVA-000/blob/main/Week_13/note/kafka.png)
 26. [其他MQ介绍与动手写MQ]
 27. [高并发系统架构设计]
