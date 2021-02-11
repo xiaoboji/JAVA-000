@@ -173,7 +173,7 @@ soul网关基于Spring WebFlux（底层Netty），这块需要后面研究一下
 1. [JVM核心技术(一)-基础知识](https://blog.csdn.net/bo_book/category_10540775.html)
 2. [JVM核心技术(二)-工具与GC策略]
 3. [JVM核心技术(三)-调优分析与面试经验]
-4. [NIO模型与Netty入门]
+4. [NIO模型与Netty入门](https://github.com/xiaoboji/JAVA-000/blob/main/Week_02/note/NIO模型与Netty入门.png)
 5. [Netty原理与API网关]
 6. [Java并发编程(一)]
 7. [Java并发编程(二)]
